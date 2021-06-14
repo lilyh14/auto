@@ -1,0 +1,12 @@
+name: 'Test Mocks'
+description: 'Mocks data for student, content creator, and mentor tests'
+inputs:
+  input_name:
+    description: 'Test Suite for mocks'
+    required: true
+token:
+    description: 'API token of the heroku account'
+    required: true
+runs:
+  using: 'node12'
+  main: 'build/index.js'
