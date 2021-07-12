@@ -1,4 +1,4 @@
-name: 'Test Mocks'
+name: 'Mocks'
 description: 'Mocks data for student, content creator, and mentor tests'
 inputs:
   image_tag: 
