@@ -7,7 +7,7 @@ inputs:
   app_name:
     description: 'Target Heroku app name'
     required: true    
-github_token:
+  github_token:
     description: 'API token of the heroku account'
     required: true
 runs:
