@@ -11,7 +11,7 @@ jobs:
       - name: install dependencies
         run: yarn
       - name: Build the docker-compose test
-        run: docker-compose -f ../mocks/docker-compose.test.yml up -d
+        run: docker-compose up -d
       - name: run tests
         run: yarn test
         env:
